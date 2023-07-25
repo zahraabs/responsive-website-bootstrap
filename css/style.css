@@ -1,0 +1,27 @@
+nav.navbar{
+    background-color:rgba(0, 0, 0, 0.7) !important;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/images/bg-02.jpg") no-repeat center center / cover;
+    padding: 0 0 100px;
+}
+
+header > section{
+    padding-top: 225px;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 400px;
+}
+
+.connect img{
+    height: 300px;
+}
+
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
