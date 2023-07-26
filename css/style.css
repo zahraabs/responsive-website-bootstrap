@@ -10,19 +10,28 @@ header{
 header > section{
     padding-top: 225px;
 }
-
+/* slider img */
 .carousel-item img {
     width: 500px;
     height: 400px;
 }
-
+/* main images */
 .connect img{
     width: 350px;
     height: 250px;
 }
-
-
+/* checkBox icon */
 .icon{
     width: 30px;
     height: 30px;
+}
+/* responsive */
+@media screen and (min-width:768px) {
+    header > section{
+        padding-top: 120px;
+    }
+    .connect img{
+        width: 450px;
+        height: 320px;
+    }
 }
