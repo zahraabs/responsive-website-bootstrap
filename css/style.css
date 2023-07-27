@@ -4,11 +4,10 @@ nav.navbar{
 
 header{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/images/bg-02.jpg") no-repeat center center / cover;
-    padding: 0 0 100px;
 }
 
 header > section{
-    padding-top: 225px;
+    padding: 125px 0 20px;
 }
 /* slider img */
 .carousel-item img {
@@ -27,9 +26,6 @@ header > section{
 }
 /* responsive */
 @media screen and (min-width:768px) {
-    header > section{
-        padding-top: 120px;
-    }
     .connect img{
         width: 450px;
         height: 320px;
